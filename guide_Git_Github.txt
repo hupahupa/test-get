@@ -1,0 +1,8 @@
+- install git on windows: http://code.google.com/p/msysgit/downloads/detail?name=Git-1.7.11-preview20120710.exe&can=2&q=full+installer+official+git
+- install SSH: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html (putty-0.60-installer.exe)
+	Set environment var: GIT_SSH=c:\Program Files\Putty\plink.exe
+	generate ssh key: open puttygen
+	save public key, save private key  (remember input passphrase number)
+	open pageant (in putty) add private key
+	copy the public key send to DUY
+open PUTTY and add host name is: github.com, port 22 > click open, loggin your account
